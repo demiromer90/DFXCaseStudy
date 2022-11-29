@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "1N9-8c-Stt"; */
+"1N9-8c-Stt.text" = "Home";
+
+/* Class = "UIButton"; normalTitle = "I FORGOT MY PASS"; ObjectID = "R60-g4-q7a"; */
+"R60-g4-q7a.normalTitle" = "I FORGOT MY PASS";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "U5H-G5-gWN"; */
+"U5H-G5-gWN.normalTitle" = "LOGIN";
+
+/* Class = "UITabBarItem"; title = "Discover"; ObjectID = "d6P-2e-kBs"; */
+"d6P-2e-kBs.title" = "Discover";

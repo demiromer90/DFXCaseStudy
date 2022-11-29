@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductRateView" customModule="CaseStudy" customModuleProvider="target">
+            <connections>
+                <outlet property="rateStackView" destination="jN5-Wx-zHL" id="865-fx-1XF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8oj-7P-exd">
+            <rect key="frame" x="0.0" y="0.0" width="116" height="15"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="jN5-Wx-zHL">
+                    <rect key="frame" x="0.0" y="0.0" width="115.5" height="15"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Frb-lk-lwo">
+                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                            <color key="tintColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="bPu-T8-y4i"/>
+                                <constraint firstAttribute="height" constant="15" id="faT-KM-CV4"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="gWc-6g-56Y">
+                            <rect key="frame" x="25" y="0.0" width="15" height="15"/>
+                            <color key="tintColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="rcQ-Kd-xvS"/>
+                                <constraint firstAttribute="width" constant="15" id="z8Z-SC-0if"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="ltV-Vf-Dx1">
+                            <rect key="frame" x="50.5" y="0.0" width="15" height="15"/>
+                            <color key="tintColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="kjY-P1-ren"/>
+                                <constraint firstAttribute="height" constant="15" id="vbk-rn-zUx"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="f9u-uj-Cvw">
+                            <rect key="frame" x="75.5" y="0.0" width="15" height="15"/>
+                            <color key="tintColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="97Y-dH-Hwx"/>
+                                <constraint firstAttribute="height" constant="15" id="LiI-ff-ltZ"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="gD5-hp-dNX">
+                            <rect key="frame" x="100.5" y="0.0" width="15" height="15"/>
+                            <color key="tintColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="4Nx-ry-XSV"/>
+                                <constraint firstAttribute="height" constant="15" id="R3k-Rc-V5X"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="YO4-F4-WNY"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jN5-Wx-zHL" firstAttribute="bottom" secondItem="YO4-F4-WNY" secondAttribute="bottom" id="1qQ-pl-XlJ"/>
+                <constraint firstItem="jN5-Wx-zHL" firstAttribute="top" secondItem="YO4-F4-WNY" secondAttribute="top" id="ef7-To-Rtt"/>
+                <constraint firstItem="jN5-Wx-zHL" firstAttribute="leading" secondItem="YO4-F4-WNY" secondAttribute="leading" id="m7A-Sx-D6D"/>
+                <constraint firstItem="YO4-F4-WNY" firstAttribute="trailing" secondItem="jN5-Wx-zHL" secondAttribute="trailing" constant="0.5" id="ycu-cH-IfW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="132.80000000000001" y="105.69715142428787"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  CaseStudy
+
+  Created by Ömer Demir on 26.11.2022.
+  
+*/
+
+"Okey" = "Okey";
+"Warning" = "Warning";
+"Coming Soon" = "Coming Soon";
+"Discover" = "Discover";
+
+"E-Posta" = "E-Mail";
+"Şifre" = "Password";
+
+"Generic Error" = "An unexpected error has occurred";
